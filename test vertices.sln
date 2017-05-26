@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test vertices.Plugins", "test vertices.Plugins.csproj", "{F3E54C30-2C1F-83D1-C10E-19EA7FD0216C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test vertices", "test vertices.csproj", "{68F6C641-2243-1333-77D3-A2DB98EDFA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test vertices.Editor.Plugins", "test vertices.Editor.Plugins.csproj", "{707C0DC7-0B84-855E-D62F-F4DF01ECCE96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3E54C30-2C1F-83D1-C10E-19EA7FD0216C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E54C30-2C1F-83D1-C10E-19EA7FD0216C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E54C30-2C1F-83D1-C10E-19EA7FD0216C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E54C30-2C1F-83D1-C10E-19EA7FD0216C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F6C641-2243-1333-77D3-A2DB98EDFA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F6C641-2243-1333-77D3-A2DB98EDFA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F6C641-2243-1333-77D3-A2DB98EDFA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F6C641-2243-1333-77D3-A2DB98EDFA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{707C0DC7-0B84-855E-D62F-F4DF01ECCE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707C0DC7-0B84-855E-D62F-F4DF01ECCE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707C0DC7-0B84-855E-D62F-F4DF01ECCE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707C0DC7-0B84-855E-D62F-F4DF01ECCE96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

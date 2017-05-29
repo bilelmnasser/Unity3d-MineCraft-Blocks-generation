@@ -5,7 +5,7 @@
 #pragma strict
 #pragma downcast 
 
-class VertexDirtSettingsStruct
+ class VertexDirtSettingsStruct
 {
 	// the shader used on occluders. If not exist or empty, objects keeps their shaders during bake
 	var occluderShader : String;
@@ -13,7 +13,7 @@ class VertexDirtSettingsStruct
 	var samplingBias : float = 0.01;
 	var samplingDistance : float = 0.5;
 	//	The FOV of the sampling camera. Please note that this value normally should be between 100-160.
-	var samplingAngle : float = 90.0;
+	 var samplingAngle : float = 90.0;
 	//	Enable to smoothing out hard edges. Basically just averages the normals of the vertices in the same position.
 	var edgeSmooth : boolean = false;
 	//	Set true if you want to render the inside of the objects. set true to render thickness.
@@ -32,7 +32,7 @@ class VertexDirtSettingsStruct
 	var useCustomSkyColor : boolean = true;
 	//	enable custom shadow color
 	var useCustomShadowColor : boolean = true;
-	//	enable custom shadow color
+	//	enable custom sky color
 	var useSkyCube : boolean = false;	
 	//	The cubeMap of the sampling camera's sky.
 	var skyCube : Material;
@@ -56,11 +56,11 @@ static class VertexDirt
 	// not implemented yet: vertexdirt baking mode: 0-Nothing, 1-AmbOcc, 2-ClearWithSky, 3-Thickness
 	var rgbBakingMode : int = 0;
 	var alphaBakingMode : int = 0;
-	//
-	var settings : VertexDirtSettingsStruct = new VertexDirtSettingsStruct();
+    //
+    static var settings: VertexDirtSettingsStruct = new VertexDirtSettingsStruct();
 	
-	//	Main function for vertex baking. The Object[] array will be used.
-    function Dirt(sels : Transform[]) 
+    //	Main function for vertex baking. The Object[] array will be used.
+    static function Dirt(sels: Transform[]) 
 	{
 		#if UNITY_EDITOR
 		var tempTime : float = EditorApplication.timeSinceStartup;

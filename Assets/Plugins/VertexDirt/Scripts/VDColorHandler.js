@@ -12,7 +12,7 @@ class VDColorHandler extends VDColorHandlerBase
 
 	function Awake() 
 	{
-		if (Application.isPlaying) 
+		//if (Application.isPlaying) 
 		{
 			var mf : MeshFilter = GetComponent.<MeshFilter>();
 			SetMesh();
@@ -21,7 +21,7 @@ class VDColorHandler extends VDColorHandlerBase
 	}	
 	function Update() 
 	{
-		if (Application.isEditor && !Application.isPlaying) 
+		//if (Application.isEditor && !Application.isPlaying) 
 		{
 			SetMesh();
 		}

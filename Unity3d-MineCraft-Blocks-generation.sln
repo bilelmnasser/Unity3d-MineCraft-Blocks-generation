@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity3d-MineCraft-Blocks-generation.Plugins", "Unity3d-MineCraft-Blocks-generation.Plugins.csproj", "{0E3B21DA-013A-E261-1CE0-1DEE70E47849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity3d-MineCraft-Blocks-generation", "Unity3d-MineCraft-Blocks-generation.csproj", "{D3BDC5E6-BA0C-30AD-37BD-903EE5415060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity3d-MineCraft-Blocks-generation.Editor.Plugins", "Unity3d-MineCraft-Blocks-generation.Editor.Plugins.csproj", "{BA26AC82-299C-ABC0-1E97-AD498EE444A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E3B21DA-013A-E261-1CE0-1DEE70E47849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3B21DA-013A-E261-1CE0-1DEE70E47849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3B21DA-013A-E261-1CE0-1DEE70E47849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3B21DA-013A-E261-1CE0-1DEE70E47849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3BDC5E6-BA0C-30AD-37BD-903EE5415060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3BDC5E6-BA0C-30AD-37BD-903EE5415060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3BDC5E6-BA0C-30AD-37BD-903EE5415060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3BDC5E6-BA0C-30AD-37BD-903EE5415060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA26AC82-299C-ABC0-1E97-AD498EE444A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA26AC82-299C-ABC0-1E97-AD498EE444A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA26AC82-299C-ABC0-1E97-AD498EE444A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA26AC82-299C-ABC0-1E97-AD498EE444A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
